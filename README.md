@@ -15,7 +15,7 @@ Sistema híbrido de persistência (SQLite + Elasticsearch) para auditoria e busc
 
 | Arquivo | Responsável | Papel |
 | :--- | :--- | :--- |
-| `database/db_relacional` | Integrante 1 | Criação e carga inicial do banco SQLite |
+| `database/db_relacional` | Deivison Oliveira da Silva | Criação e carga inicial do banco SQLite |
 | `infra/docker-compose.yml` + `src/integracao/integrador.py` | Integrante 2 | Subir Elasticsearch e carga inicial |
 | `src/persistencia/orm.py` + `src/aplicacao/desktop_mvc.py` | Integrante 3 | CRUD relacional e interface Desktop MVC |
 | `src/persistencia/orm.py` + `src/persistencia/odm.py` | Integrante 4 | Migração de SQL/queries para SQLAlchemy e elasticsearch-dsl |
